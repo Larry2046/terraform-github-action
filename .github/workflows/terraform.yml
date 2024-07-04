@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-  workflow_dispatch: #this attribute will enable the manual run to the pipeline
+# workflow_dispatch: #this attribute will enable the manual run to the pipeline
 
 env:
   ARM_CLIENT_ID: ${{secrets.AZURE_CLIENT_ID}}
